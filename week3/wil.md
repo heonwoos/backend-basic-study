@@ -1,4 +1,4 @@
-# What did I learn this week? - 2
+# What did I learn this week? - 3
 
 **목표**: Django 프로젝트 파일 구조를 이해하자
 
