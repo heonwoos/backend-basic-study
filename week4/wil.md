@@ -72,9 +72,8 @@ python manage.py migrate
 1. url이 요청됨
 2. `urls.py`에서 `path()`를 사용해 요청된 url 주소에 해당하는 `views.py`의 함수 호출
 3. `views.py`의 함수에서 정보를 가공해 딕셔너리를 만들고 그것을 표시할 html 파일로 넘김
-
-   4. html 파일에서 딕셔너리의 데이터를 이용, 동적으로 html이 생성됨
-   5. `views.py`에서 DB가 필요할 경우 `models.py`의 원하는 DB 클래스를 임포트하여 사용
+4. html 파일에서 딕셔너리의 데이터를 이용, 동적으로 html이 생성됨
+5. `views.py`에서 DB가 필요할 경우 `models.py`의 원하는 DB 클래스를 임포트하여 사용
 
 ## 느낀점
 
